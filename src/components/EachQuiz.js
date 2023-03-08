@@ -153,8 +153,8 @@ const EachQuiz = () => {
                                           </button>
                                           }
                                           {currentQuestions === examination.length-1?
-                                          <button className="text bg-green-700 md:w-1/3 lg:w-1/4 mx-auto px-5 py-1 text-center text-white rounded" onClick={finishTest}>
-                                                <Link className="text px-8 py-1  mx-auto text-white rounded" to={`/result`}>Finish Test</Link>
+                                          <button className="text bg-green-700 md:w-1/3 lg:w-1/4 mx-auto px-2 py-1 text-center text-white rounded" onClick={finishTest}>
+                                                <Link className="text px-2 py-1  mx-auto text-white rounded" to={`/result`}>Finish Test</Link>
                                           </button>:
                                           <button className="text bg-blue-700 md:w-1/3 lg:w-1/4 mx-auto px-8 py-1 text-center text-white rounded" onClick={nextQuest}>
                                           <Link className="text px-8 py-1  mx-auto text-white rounded" to={`/questions/${index + 2}`}>Next</Link>

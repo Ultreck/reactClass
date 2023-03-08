@@ -32,7 +32,7 @@ const Result = () => {
                 </tr>
                 <tr>
                   <th class="border border-slate-300 py-5  px-5  text-start">Average Score</th>
-                  <td class="border border-slate-300 py-5  px-5  text-center">{correctState.correct/50 *examination.length}%</td>
+                  <td class="border border-slate-300 py-5  px-5  text-center">{correctState.correct/100 *examination.length}%</td>
                 </tr>
         </table>
       </div>
